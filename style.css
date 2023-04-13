@@ -1,4 +1,5 @@
 .profile-card {
+    background-color: hsla(0, 0%, 0%, .8) 10px 10px 80px;
     width: 350px;
     max-width: calc(100vw-20px);
     border-radius: 8px;
@@ -26,7 +27,7 @@
 
 .head, .content {
     width: 85%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 img {
@@ -39,7 +40,7 @@ img {
 }
 
 .profile-image {
-    margin-top: -40%;
+    margin-top: -75%;
 }
 
 ul {
@@ -51,21 +52,21 @@ li {
 }
 
 .head, .about-text {
-    margin-bottom: 25%;
+    margin-bottom: 15%;
 }
 
 .content {
-    padding: 10% 15%;
+    padding: 5% 15%;
     border-top: 1px solid;
 }
 
 body {
-    background-image: src=() no-repeat center center fixed;
+    background: src=(https://i.imgur.com/btykXg1.jpeg) no-repeat center center fixed;
     background-size: cover;
 }
 
 img:hover {
-    transform: rotate(1.1);
+    transform: scale(1.1);
     transition: all 1s ease-in-out;
     filter: grayscale(25%);
 }
